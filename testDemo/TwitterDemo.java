@@ -21,6 +21,7 @@ public class TwitterDemo {
 		driver.findElement(By.id("tweet-box-home-timeline")).sendKeys(DataProperties.dataProperty("Message"));
 		driver.findElement(By.className("tweet-action")).click();
 		Thread.sleep(3000);
+		System.out.println("Testing the file changed with this comment");
 		driver.quit();
 	}
 
