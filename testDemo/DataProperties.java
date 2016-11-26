@@ -25,6 +25,7 @@ public class DataProperties {
 		Properties prop = new Properties();
 
 		// load properties file
+		// commented line, should be deleted later
 
 		try {
 			prop.load(fileInput);
